@@ -1,0 +1,11 @@
+s=int(input("请输入一个数字"))
+f=input("请输入一个符号")
+li=int(input("请输入另一个数字"))
+if f=="+":
+    print(s+li)
+if f=="-":
+    print(s-li)
+if f=="*":
+    print(s*li)
+if f=="/":
+    print(s/li)
